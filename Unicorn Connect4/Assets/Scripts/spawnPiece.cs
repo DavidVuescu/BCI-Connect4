@@ -52,110 +52,110 @@ public class spawnPiece : MonoBehaviour
         switch (row)
         {
             case 1:  
+            {
+                if (activeColour)
                 {
-                    if (activeColour)
-                    {
-                        Instantiate(redPiece, new Vector2(-3, pieceheight), Quaternion.identity);
-                        nextPlayer();
-                    }
-                    else
-                    {
-                        Instantiate(yellowPiece, new Vector2(-3, pieceheight), Quaternion.identity);
-                        nextPlayer();
-                    }
-
-                    break; 
+                    Instantiate(redPiece, new Vector2(-3, pieceheight), Quaternion.identity);
+                    nextPlayer();
                 }
+                else
+                {
+                    Instantiate(yellowPiece, new Vector2(-3, pieceheight), Quaternion.identity);
+                    nextPlayer();
+                }
+
+                break; 
+            }
             case 2:
+            {
+                if (activeColour)
                 {
-                    if (activeColour)
-                    {
-                        Instantiate(redPiece, new Vector2(-2, pieceheight), Quaternion.identity);
-                        nextPlayer();
-                    }
-                    else
-                    {
-                        Instantiate(yellowPiece, new Vector2(-2, pieceheight), Quaternion.identity);
-                        nextPlayer();
-                    }
-
-                    break;
+                    Instantiate(redPiece, new Vector2(-2, pieceheight), Quaternion.identity);
+                    nextPlayer();
                 }
+                else
+                {
+                    Instantiate(yellowPiece, new Vector2(-2, pieceheight), Quaternion.identity);
+                    nextPlayer();
+                }
+
+                break;
+            }
             case 3:
+            {
+                if (activeColour)
                 {
-                    if (activeColour)
-                    {
-                        Instantiate(redPiece, new Vector2(-1, pieceheight), Quaternion.identity);
-                        nextPlayer();
-                    }
-                    else
-                    {
-                        Instantiate(yellowPiece, new Vector2(-1, pieceheight), Quaternion.identity);
-                        nextPlayer();
-                    }
-
-                    break;
+                    Instantiate(redPiece, new Vector2(-1, pieceheight), Quaternion.identity);
+                    nextPlayer();
                 }
+                else
+                {
+                    Instantiate(yellowPiece, new Vector2(-1, pieceheight), Quaternion.identity);
+                    nextPlayer();
+                }
+
+                break;
+            }
             case 4:
+            {
+                if (activeColour)
                 {
-                    if (activeColour)
-                    {
-                        Instantiate(redPiece, new Vector2(0, pieceheight), Quaternion.identity);
-                        nextPlayer();
-                    }
-                    else
-                    {
-                        Instantiate(yellowPiece, new Vector2(0, pieceheight), Quaternion.identity);
-                        nextPlayer();
-                    }
-
-                    break;
+                    Instantiate(redPiece, new Vector2(0, pieceheight), Quaternion.identity);
+                    nextPlayer();
                 }
+                else
+                {
+                    Instantiate(yellowPiece, new Vector2(0, pieceheight), Quaternion.identity);
+                    nextPlayer();
+                }
+
+                break;
+            }
             case 5:
+            {
+                if (activeColour)
                 {
-                    if (activeColour)
-                    {
-                        Instantiate(redPiece, new Vector2(1, pieceheight), Quaternion.identity);
-                        nextPlayer();
-                    }
-                    else
-                    {
-                        Instantiate(yellowPiece, new Vector2(1, pieceheight), Quaternion.identity);
-                        nextPlayer();
-                    }
-
-                    break;
+                    Instantiate(redPiece, new Vector2(1, pieceheight), Quaternion.identity);
+                    nextPlayer();
                 }
+                else
+                {
+                    Instantiate(yellowPiece, new Vector2(1, pieceheight), Quaternion.identity);
+                    nextPlayer();
+                }
+
+                break;
+            }
             case 6:
+            {
+                if (activeColour)
                 {
-                    if (activeColour)
-                    {
-                        Instantiate(redPiece, new Vector2(2, pieceheight), Quaternion.identity);
-                        nextPlayer();
-                    }
-                    else
-                    {
-                        Instantiate(yellowPiece, new Vector2(2, pieceheight), Quaternion.identity);
-                        nextPlayer();
-                    }
-
-                    break;
+                    Instantiate(redPiece, new Vector2(2, pieceheight), Quaternion.identity);
+                    nextPlayer();
                 }
+                else
+                {
+                    Instantiate(yellowPiece, new Vector2(2, pieceheight), Quaternion.identity);
+                    nextPlayer();
+                }
+
+                break;
+            }
             case 7:
+            {
+                if (activeColour)
                 {
-                    if (activeColour)
-                    {
-                        Instantiate(redPiece, new Vector2(3, pieceheight), Quaternion.identity);
-                        nextPlayer();
-                    }
-                    else
-                    {
-                        Instantiate(yellowPiece, new Vector2(3, pieceheight), Quaternion.identity);
-                        nextPlayer();
-                    }
-
-                    break;
+                    Instantiate(redPiece, new Vector2(3, pieceheight), Quaternion.identity);
+                    nextPlayer();
                 }
+                else
+                {
+                    Instantiate(yellowPiece, new Vector2(3, pieceheight), Quaternion.identity);
+                    nextPlayer();
+                }
+
+                break;
+            }
         }
     }
 
