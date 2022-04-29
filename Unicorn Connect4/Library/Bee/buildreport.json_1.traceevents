@@ -1,0 +1,559 @@
+﻿{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1651270212362368, "dur": 922337203685477580, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1651270212364224, "dur": 24952, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1651270212389362, "dur": 146622, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1651270212536016, "dur": 514436, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1651270213050454, "dur": 31568133, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1651270244618612, "dur": 10050, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1651270279696320, "dur": 922337203685477580, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1651270279696585, "dur": 1303, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1651270279697889, "dur": 202896, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1651270279900787, "dur": 1011511, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1651270280912301, "dur": 3430704, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1651270284343008, "dur": 10841, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1651270401078189, "dur": 922337203685477580, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1651270401078214, "dur": 166455, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1651270401244671, "dur": 159614, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1651270401404288, "dur": 10141, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1651270416632224, "dur": 922337203685477580, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1651270416632268, "dur": 4614, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1651270416636885, "dur": 80151, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1651270416717038, "dur": 452928, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1651270417169968, "dur": 1464468, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1651270418634439, "dur": 12365, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1651270418647160, "dur": 42, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1651270416992484, "dur": 158180, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1651270416993750, "dur": 62754, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1651270417125772, "dur": 6400, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1651270417132178, "dur": 18451, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1651270417133184, "dur": 16031, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1651270417157320, "dur": 1754, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1651270417156013, "dur": 3097, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1651270418647251, "dur": 216, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1651270417239310, "dur":1324, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1651270417240649, "dur":148, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1651270417240854, "dur":21, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1651270417240878, "dur":250, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1651270417241160, "dur":710, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1651270417241870, "dur":2, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1651270418604819, "dur":116, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1651270418604935, "dur":14, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1651270418604949, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1651270418604953, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1651270418604965, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1651270418604969, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1651270418604977, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1651270418604980, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1651270418604989, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1651270418605006, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1651270418605027, "dur":2060, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1651270417242379, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1651270417242379, "dur":4545, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1651270417246933, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":1, "ts":1651270417247037, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1651270417249731, "dur":1287, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":1, "ts":1651270417251089, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1651270417251145, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1651270417251165, "dur":860, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1651270417252086, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1651270417252132, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1651270417252377, "dur":1263, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1651270417253964, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1651270417254055, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1651270417254060, "dur":5892, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1651270417260039, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1651270417260096, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1651270417260099, "dur":205474, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1651270417465682, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1651270417465741, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1651270417465967, "dur":27586, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1651270417493630, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1651270417493663, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1651270417493669, "dur":45260, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1651270417538945, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1651270417538960, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1651270417538965, "dur":47595, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1651270417586576, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1651270417586600, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1651270417586605, "dur":38230, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1651270417624854, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1651270417624869, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1651270417624875, "dur":43250, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1651270417668140, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1651270417668161, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1651270417668165, "dur":15934, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1651270417684116, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1651270417684138, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1651270417684143, "dur":85172, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1651270417769329, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1651270417769351, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1651270417769356, "dur":24133, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1651270417793511, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1651270417793526, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1651270417793531, "dur":1375, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1651270417794950, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1651270417794974, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1651270417794979, "dur":30680, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1651270417825680, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1651270417825694, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1651270417825698, "dur":556, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1651270417826268, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1651270417826282, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1651270417826286, "dur":674, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1651270417826975, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1651270417826992, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1651270417826998, "dur":39325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1651270417866344, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1651270417866376, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1651270417866412, "dur":26901, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1651270417893660, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1651270417893688, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1651270417893694, "dur":846, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1651270417894560, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1651270417894601, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1651270417894607, "dur":857, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1651270417895479, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1651270417895596, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1651270417895600, "dur":42401, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1651270417938016, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1651270417938032, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1651270417938036, "dur":52672, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1651270417990725, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1651270417990740, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1651270417990745, "dur":2067, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1651270417992827, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1651270417992843, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1651270417992853, "dur":175601, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1651270418168481, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1651270418168503, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1651270418168508, "dur":804, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1651270418169328, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1651270418169342, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1651270418169347, "dur":265553, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1651270418434915, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":1, "ts":1651270418434929, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1651270418434934, "dur":101106, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":1, "ts":1651270418536055, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":1, "ts":1651270418536069, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1651270418536072, "dur":560, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":1, "ts":1651270418536645, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1651270418536708, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1651270418536712, "dur":777, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1651270418537502, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1651270418537515, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1651270418537519, "dur":53199, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1651270418590741, "dur":151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1651270418590895, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1651270418590899, "dur":684, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1651270418591597, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1651270418591611, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1651270418591615, "dur":7902, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1651270418599533, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/level1" }}
+,{ "pid":12345, "tid":1, "ts":1651270418599546, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1651270418599550, "dur":3305, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/level1" }}
+,{ "pid":12345, "tid":1, "ts":1651270418602873, "dur":1918, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1651270417242304, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1651270417242305, "dur":4610, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1651270417246932, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1651270417246934, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1651270417246961, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1651270417246973, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1651270417247432, "dur":2836, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1651270417250272, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1651270417250352, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1651270417250815, "dur":871, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1651270417251752, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1651270417251801, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1651270417251806, "dur":593, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1651270417252450, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1651270417252510, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1651270417252527, "dur":870, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1651270417253474, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1651270417253542, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1651270417253555, "dur":654, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1651270417254264, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1651270417254313, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1651270417254317, "dur":979, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1651270417255366, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1651270417255415, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1651270417255813, "dur":1474, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1651270417257341, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1651270417257400, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1651270417257404, "dur":786, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1651270417258244, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1651270417258292, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1651270417258296, "dur":524, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1651270417258867, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1651270417258917, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1651270417259208, "dur":202606, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1651270417461925, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4.exe" }}
+,{ "pid":12345, "tid":2, "ts":1651270417461971, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1651270417461980, "dur":152643, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4.exe" }}
+,{ "pid":12345, "tid":2, "ts":1651270417614640, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1651270417614665, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1651270417614670, "dur":62640, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1651270417677333, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1651270417677355, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1651270417677361, "dur":79297, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1651270417756674, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1651270417756691, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1651270417756696, "dur":45505, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1651270417802218, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1651270417802233, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1651270417802256, "dur":759, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1651270417803029, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1651270417803044, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1651270417803049, "dur":20888, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1651270417823964, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1651270417823990, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1651270417823995, "dur":50294, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1651270417874306, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1651270417874324, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1651270417874329, "dur":885, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1651270417875229, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1651270417875257, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1651270417875262, "dur":22175, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1651270417897455, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1651270417897475, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1651270417897480, "dur":40517, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1651270417938012, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1651270417938027, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1651270417938031, "dur":43472, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1651270417981518, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1651270417981534, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1651270417981539, "dur":29648, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1651270418011206, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1651270418011221, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1651270418011226, "dur":156064, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1651270418167308, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1651270418167324, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1651270418167329, "dur":626, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1651270418167970, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1651270418167993, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1651270418167997, "dur":175373, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1651270418343400, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1651270418343424, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1651270418343430, "dur":2918, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1651270418346363, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1651270418346377, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1651270418346382, "dur":33652, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1651270418380048, "dur":192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":2, "ts":1651270418380242, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1651270418380247, "dur":2275, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":2, "ts":1651270418382538, "dur":707, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1651270418383250, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1651270418383255, "dur":1571, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1651270418384847, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":2, "ts":1651270418384942, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1651270418384948, "dur":4416, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":2, "ts":1651270418389381, "dur":328, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":2, "ts":1651270418389711, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1651270418389717, "dur":841, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":2, "ts":1651270418390575, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":2, "ts":1651270418390589, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1651270418390594, "dur":83670, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":2, "ts":1651270418474287, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":2, "ts":1651270418474425, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1651270418474429, "dur":602, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":2, "ts":1651270418475043, "dur":154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1651270418475199, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1651270418475203, "dur":25431, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1651270418500650, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":2, "ts":1651270418500744, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1651270418500750, "dur":669, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":2, "ts":1651270418501433, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1651270418501542, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1651270418501547, "dur":509, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1651270418502068, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1651270418502175, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1651270418502180, "dur":485, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1651270418502677, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1651270418502777, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1651270418502781, "dur":507, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1651270418503300, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1651270418503313, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1651270418503317, "dur":806, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1651270418504137, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1651270418504156, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1651270418504160, "dur":2795, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1651270418506972, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/Managed/System.Windows.Forms.dll" }}
+,{ "pid":12345, "tid":2, "ts":1651270418506986, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1651270418506991, "dur":2615, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/Managed/System.Windows.Forms.dll" }}
+,{ "pid":12345, "tid":2, "ts":1651270418509621, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1651270418509635, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1651270418509641, "dur":656, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1651270418510308, "dur":352, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1651270418510663, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1651270418510668, "dur":983, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1651270418511668, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1651270418511682, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1651270418511687, "dur":717, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1651270418512417, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/Managed/System.Runtime.Serialization.Formatters.Soap.dll" }}
+,{ "pid":12345, "tid":2, "ts":1651270418512434, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1651270418512438, "dur":550, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/Managed/System.Runtime.Serialization.Formatters.Soap.dll" }}
+,{ "pid":12345, "tid":2, "ts":1651270418513001, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1651270418513015, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1651270418513019, "dur":1076, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1651270418514112, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1651270418514126, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1651270418514131, "dur":808, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1651270418514952, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1651270418514966, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1651270418514970, "dur":794, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1651270418515777, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1651270418515790, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1651270418515794, "dur":760, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1651270418516567, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1651270418516588, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1651270418516592, "dur":483, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1651270418517087, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":2, "ts":1651270418517100, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1651270418517120, "dur":1097, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":2, "ts":1651270418518232, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1651270418518248, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1651270418518253, "dur":544, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1651270418518809, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1651270418518823, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1651270418518827, "dur":801, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1651270418519641, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1651270418519655, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1651270418519660, "dur":3457, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1651270418523132, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1651270418523153, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1651270418523158, "dur":2443, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1651270418525621, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1651270418525637, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1651270418525643, "dur":758, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1651270418526414, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1651270418526433, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1651270418526437, "dur":1368, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1651270418527821, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1651270418527836, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1651270418527840, "dur":807, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1651270418528659, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1651270418528674, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1651270418528678, "dur":995, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1651270418529687, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/Managed/Mono.WebBrowser.dll" }}
+,{ "pid":12345, "tid":2, "ts":1651270418529703, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1651270418529707, "dur":1057, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/Managed/Mono.WebBrowser.dll" }}
+,{ "pid":12345, "tid":2, "ts":1651270418530780, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1651270418530797, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1651270418530802, "dur":915, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1651270418531738, "dur":220, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/Managed/Mono.Posix.dll" }}
+,{ "pid":12345, "tid":2, "ts":1651270418531962, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1651270418531970, "dur":3503, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/Managed/Mono.Posix.dll" }}
+,{ "pid":12345, "tid":2, "ts":1651270418535496, "dur":11211, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":2, "ts":1651270418546711, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1651270418597750, "dur":1100, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":2, "ts":1651270418598867, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/level2" }}
+,{ "pid":12345, "tid":2, "ts":1651270418598881, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1651270418598883, "dur":2397, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/level2" }}
+,{ "pid":12345, "tid":2, "ts":1651270418601295, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1651270418601308, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1651270418601312, "dur":1191, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1651270418602515, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1651270418602595, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1651270418602598, "dur":1526, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1651270418604139, "dur":650, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1651270417242414, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1651270417242415, "dur":4513, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1651270417246933, "dur":282, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1651270417247218, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1651270417255427, "dur":1112, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1651270417256608, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1651270417256664, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1651270417256684, "dur":1432, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1651270417258185, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1651270417258233, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1651270417258238, "dur":747, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1651270417259035, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1651270417259089, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1651270417259185, "dur":210258, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1651270417469728, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1651270417469764, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1651270417485406, "dur":95007, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1651270417580446, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1651270417580471, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1651270417580476, "dur":31430, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1651270417611925, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1651270417611948, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1651270417611953, "dur":96481, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1651270417708450, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1651270417708469, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1651270417708474, "dur":519, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1651270417709004, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1651270417709022, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1651270417709026, "dur":584, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1651270417709624, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1651270417709638, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1651270417709642, "dur":1819, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1651270417711478, "dur":279, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1651270417711760, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1651270417711765, "dur":1314, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1651270417713095, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1651270417713111, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1651270417713116, "dur":29548, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1651270417742679, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1651270417742695, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1651270417742700, "dur":75109, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1651270417817826, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1651270417817860, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1651270417817876, "dur":37953, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1651270417855847, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1651270417855868, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1651270417855891, "dur":7639, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1651270417863545, "dur":398, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1651270417863946, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1651270417863953, "dur":73962, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1651270417937933, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1651270417937947, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1651270417937952, "dur":838, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1651270417938803, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1651270417938820, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1651270417938825, "dur":42711, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1651270417981551, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1651270417981566, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1651270417981569, "dur":862, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1651270417982447, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1651270417982481, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1651270417982487, "dur":15500, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1651270417998002, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1651270417998019, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1651270417998024, "dur":169582, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1651270418167622, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1651270418167637, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1651270418167642, "dur":191940, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1651270418359597, "dur":203, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":3, "ts":1651270418359802, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1651270418359808, "dur":2658, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":3, "ts":1651270418362483, "dur":348, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":3, "ts":1651270418362833, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1651270418362839, "dur":9686, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":3, "ts":1651270418372542, "dur":495, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1651270418373039, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1651270418373044, "dur":6896, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1651270418379958, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1651270418379973, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1651270418379978, "dur":2358, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1651270418382360, "dur":450, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1651270418382813, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1651270418382819, "dur":833, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1651270418383665, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/Managed/Unity.ItemReceiver.dll" }}
+,{ "pid":12345, "tid":3, "ts":1651270418383679, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1651270418383683, "dur":1246, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/Managed/Unity.ItemReceiver.dll" }}
+,{ "pid":12345, "tid":3, "ts":1651270418384941, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":3, "ts":1651270418384955, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1651270418384959, "dur":26766, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":3, "ts":1651270418411739, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":3, "ts":1651270418411753, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1651270418411770, "dur":56324, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":3, "ts":1651270418468108, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":3, "ts":1651270418468121, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1651270418468126, "dur":130561, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":3, "ts":1651270418598706, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/level3" }}
+,{ "pid":12345, "tid":3, "ts":1651270418598724, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1651270418598727, "dur":2780, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/level3" }}
+,{ "pid":12345, "tid":3, "ts":1651270418601522, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1651270418601536, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1651270418601539, "dur":3214, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1651270418604770, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":3, "ts":1651270418604771, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1651270417242331, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1651270417242332, "dur":4593, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1651270417246933, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1651270417247049, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1651270417255863, "dur":1298, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1651270417257222, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1651270417257317, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1651270417257322, "dur":1122, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1651270417258491, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1651270417258534, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1651270417258538, "dur":1295, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1651270417259888, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1651270417259935, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1651270417259939, "dur":227159, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1651270417487182, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1651270417487227, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1651270417487248, "dur":48823, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1651270417536087, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1651270417536105, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1651270417536110, "dur":44592, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1651270417580718, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1651270417580737, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1651270417580742, "dur":21356, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1651270417602115, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1651270417602136, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1651270417602141, "dur":20860, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1651270417623019, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1651270417623036, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1651270417623041, "dur":45079, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1651270417668138, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1651270417668155, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1651270417668164, "dur":16076, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1651270417684486, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1651270417684506, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1651270417684510, "dur":50540, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1651270417735271, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1651270417735305, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1651270417735310, "dur":653, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1651270417735975, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1651270417735989, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1651270417735993, "dur":1025, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1651270417737035, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1651270417737052, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1651270417737057, "dur":836, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1651270417737907, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1651270417737922, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1651270417737926, "dur":635, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1651270417738577, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1651270417738646, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1651270417738652, "dur":37869, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1651270417776536, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1651270417776555, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1651270417776560, "dur":751945, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1651270418528520, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1651270418528553, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1651270418528558, "dur":684, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1651270418529254, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1651270418529268, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1651270418529272, "dur":4640, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1651270418533929, "dur":325, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1651270418534257, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1651270418534262, "dur":932, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1651270418535209, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/Managed/Accessibility.dll" }}
+,{ "pid":12345, "tid":4, "ts":1651270418535226, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1651270418535231, "dur":746, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/Managed/Accessibility.dll" }}
+,{ "pid":12345, "tid":4, "ts":1651270418535992, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":4, "ts":1651270418536010, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1651270418536025, "dur":826, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":4, "ts":1651270418536864, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":4, "ts":1651270418536877, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1651270418536880, "dur":43854, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":4, "ts":1651270418580753, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":4, "ts":1651270418580768, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1651270418580773, "dur":633, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":4, "ts":1651270418581419, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1651270418581434, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1651270418581437, "dur":9044, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1651270418590503, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1651270418590518, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1651270418590572, "dur":839, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1651270418591423, "dur":699, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1651270418592126, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1651270418592132, "dur":6453, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1651270418598607, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/resources.assets" }}
+,{ "pid":12345, "tid":4, "ts":1651270418598623, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1651270418598628, "dur":2901, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/resources.assets" }}
+,{ "pid":12345, "tid":4, "ts":1651270418601542, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Joc gata/Unicorn Connect4_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1651270418601554, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1651270418601557, "dur":3166, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Joc gata/Unicorn Connect4_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1651270418604736, "dur":83, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1651270418608671, "dur":2057, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1651270418647689, "dur": 698, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1651270418647148, "dur": 1270, "ph": "X", "name": "Write chrome-trace events", "args": {} },
