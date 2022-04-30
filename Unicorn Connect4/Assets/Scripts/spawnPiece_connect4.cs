@@ -7,6 +7,9 @@ using Intendix.Board;
 using System.Net.Sockets;
 using System.Runtime.Serialization.Formatters.Binary;
 
+
+namespace connect4
+{
 public class spawnPiece : MonoBehaviour
 {
     public GameObject redPiece;
@@ -246,4 +249,5 @@ void Update()
     {
         spawnListener(spawnRow);
     }
+}
 }
