@@ -4,9 +4,9 @@ using UnityEngine;
 using System;
 using UnityEngine.SceneManagement;
 
-namespace gameLogic
+namespace connect4
 {
-    public class win_loose : MonoBehaviour
+    public class gameController : MonoBehaviour
     {
         private int[,] gameMatrix = new int[6, 7];
         private enum Piece
@@ -201,44 +201,44 @@ namespace gameLogic
         }
 
             // Update is called once per frame
-            void Update()
+        void Update()
+        {
+            if (Input.GetKeyDown(KeyCode.Alpha1))
             {
-                if (Input.GetKeyDown(KeyCode.Alpha1))
-                {
-                    // Debug.Log("A piece was spawned on the first row");
-                    matrixPiece(1, activeColour);
-                }
-                if (Input.GetKeyDown(KeyCode.Alpha2))
-                {
-                    // Debug.Log("A piece was spawned on the second row");
-                    matrixPiece(2, activeColour);
-                }
-                if (Input.GetKeyDown(KeyCode.Alpha3))
-                {
-                    // Debug.Log("A piece was spawned on the third row");
-                    matrixPiece(3, activeColour);
-                }
-                if (Input.GetKeyDown(KeyCode.Alpha4))
-                {
-                    // Debug.Log("A piece was spawned on the fourth row");
-                    matrixPiece(4, activeColour);
-                }
-                if (Input.GetKeyDown(KeyCode.Alpha5))
-                {
-                    // Debug.Log("A piece was spawned on the fifth row");
-                    matrixPiece(5, activeColour);
-                }
-                if (Input.GetKeyDown(KeyCode.Alpha6))
-                {
-                    // Debug.Log("A piece was spawned on the sixth row");
-                    matrixPiece(6, activeColour);
-                }
-                if (Input.GetKeyDown(KeyCode.Alpha7))
-                {
-                    // Debug.Log("A piece was spawned on the seventh row");
-                    matrixPiece(7, activeColour);
-                }
+                // Debug.Log("A piece was spawned on the first row");
+                matrixPiece(1, activeColour);
+            }
+            if (Input.GetKeyDown(KeyCode.Alpha2))
+            {
+                // Debug.Log("A piece was spawned on the second row");
+                matrixPiece(2, activeColour);
+            }
+            if (Input.GetKeyDown(KeyCode.Alpha3))
+            {
+                // Debug.Log("A piece was spawned on the third row");
+                matrixPiece(3, activeColour);
+            }
+            if (Input.GetKeyDown(KeyCode.Alpha4))
+            {
+                // Debug.Log("A piece was spawned on the fourth row");
+                matrixPiece(4, activeColour);
+            }
+            if (Input.GetKeyDown(KeyCode.Alpha5))
+            {
+                // Debug.Log("A piece was spawned on the fifth row");
+                matrixPiece(5, activeColour);
+            }
+            if (Input.GetKeyDown(KeyCode.Alpha6))
+            {
+                // Debug.Log("A piece was spawned on the sixth row");
+                matrixPiece(6, activeColour);
+            }
+            if (Input.GetKeyDown(KeyCode.Alpha7))
+            {
+                // Debug.Log("A piece was spawned on the seventh row");
+                matrixPiece(7, activeColour);
             }
         }
     }
+}
 
