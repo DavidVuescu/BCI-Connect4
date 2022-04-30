@@ -1,44 +1,44 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using System.Net;
-using Unity.ItemRecever;
 using System;
+using System.IO;
+using System.Net;
+using UnityEngine;
+using Unity.ItemRecever;
+using Intendix.Board;
+using System.Net.Sockets;
+using System.Runtime.Serialization.Formatters.Binary;
 
 public class spawnPiece : MonoBehaviour
 {
     public GameObject redPiece;
     public GameObject yellowPiece;
 
+    public static string ips = "127.0.0.1";
+    public static int port = 1000;
+    public static IPAddress ip = IPAddress.Parse(ips);
+
+    //BoardItem receivedItem = ReceiveItem(ip, port);
+
     private bool activeColour;
 
     private int pieceheight = 4;
 
+
+    bool shouldPieceBeSpawned;
+    int spawnRow;
+
+
+
     // Start is called before the first frame update
     void Start()
     {
+
         activeColour = false;
+        shouldPieceBeSpawned = false;
 
-        // Connection with Unicorn BCI
-        try
-        {
-            //IP settings
-            string ips = "127.0.0.1";
-            int port = 1000;
-            IPAddress ip = IPAddress.Parse(ips);
+        connection(ip,port);
+        // if (receivedItem != null)
+        //     Console.WriteLine("Item '{0}' received.", receivedItem.Name);
 
-            //Start listening for Unicorn Speller network messages
-            SpellerReceiver r = new SpellerReceiver(ip, port);
-
-            //attach items received event
-            r.OnItemReceived += OnItemReceived;
-
-            Debug.Log(String.Format("Listening to {0} on port {1}.", ip, port));
-        }
-        catch (Exception ex)
-        {
-            Debug.Log(ex.Message);
-        }
     }
 
     private void nextPlayer()
@@ -46,8 +46,15 @@ public class spawnPiece : MonoBehaviour
         if(!activeColour) activeColour = true;
             else activeColour = false;
     }
+    
 
-    private void Spawn(uint row)
+    private void spawnListener(int spawnRow)
+    {
+        if(shouldPieceBeSpawned) Spawn(spawnRow);
+        shouldPieceBeSpawned = false;
+    }
+
+    private void Spawn(int row)
     {
         switch (row)
         {
@@ -164,46 +171,79 @@ public class spawnPiece : MonoBehaviour
         ItemReceivedEventArgs eventArgs = (ItemReceivedEventArgs)args;
         Debug.Log(String.Format("Received BoardItem:\tName: {0}\tOutput Text: {1}", eventArgs.BoardItem.Name, eventArgs.BoardItem.OutputText));
 
-        //Do something...
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.Alpha1))
+        if (eventArgs.BoardItem.OutputText == "Alpha1")
         {
             Debug.Log("A piece was spawned on the first row");
-            Spawn(1);
+            shouldPieceBeSpawned = true;
+            spawnRow = 1;
         }
-        if (Input.GetKeyDown(KeyCode.Alpha2))
+        if (eventArgs.BoardItem.OutputText == "Alpha2")
         {
             Debug.Log("A piece was spawned on the second row");
-            Spawn(2);
+            shouldPieceBeSpawned = true;
+            spawnRow = 2;
         }
-        if (Input.GetKeyDown(KeyCode.Alpha3))
+        if (eventArgs.BoardItem.OutputText == "Alpha3")
         {
             Debug.Log("A piece was spawned on the third row");
-            Spawn(3);
+            shouldPieceBeSpawned = true;
+            spawnRow = 3;
         }
-        if (Input.GetKeyDown(KeyCode.Alpha4))
+        if (eventArgs.BoardItem.OutputText == "Alpha4")
         {
             Debug.Log("A piece was spawned on the fourth row");
-            Spawn(4);
+            shouldPieceBeSpawned = true;
+            spawnRow = 4;
         }
-        if (Input.GetKeyDown(KeyCode.Alpha5))
+        if (eventArgs.BoardItem.OutputText == "Alpha5")
         {
             Debug.Log("A piece was spawned on the fifth row");
-            Spawn(5);
+            shouldPieceBeSpawned = true;
+            spawnRow = 5;
         }
-        if (Input.GetKeyDown(KeyCode.Alpha6))
+        if (eventArgs.BoardItem.OutputText == "Alpha6")
         {
             Debug.Log("A piece was spawned on the sixth row");
-            Spawn(6);
+            shouldPieceBeSpawned = true;
+            spawnRow = 6;
         }
-        if (Input.GetKeyDown(KeyCode.Alpha7))
+        if(eventArgs.BoardItem.OutputText == "Alpha7")
         {
             Debug.Log("A piece was spawned on the seventh row");
-            Spawn(7);
+            shouldPieceBeSpawned = true;
+            spawnRow = 7;
         }
+    }
+
+
+    void connection(IPAddress ip, int port)
+    {
+        // Connection with Unicorn BCI
+        try
+        {
+            //IP settings
+            
+
+            //Start listening for Unicorn Speller network messages
+            SpellerReceiver r = new SpellerReceiver(ip, port);
+
+            //attach items received event
+            r.OnItemReceived += OnItemReceived;
+
+            Debug.Log(String.Format("Listening to {0} on port {1}.", ip, port));
+        }
+        catch (Exception ex)
+        {
+            Debug.Log(ex.Message);
+        }
+
+    }
+
+  
+
+// Update is called once per frame
+void Update()
+    {
+        spawnListener(spawnRow);
     }
 }
