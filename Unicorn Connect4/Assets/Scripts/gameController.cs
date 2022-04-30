@@ -145,7 +145,7 @@ public class gameController : MonoBehaviour
         return false;
     }
 
-    //main win condition function, checks adjecent tiles for pieces of the same colour as the current one
+    //main win condition check function, checks adjecent tiles for pieces of the same colour as the current one
     //if it finds 4 adjecent pieces it returns a true value used for displaying win screens
     private static bool checkWin(int x, int y)
     {
@@ -158,6 +158,15 @@ public class gameController : MonoBehaviour
         if (checkWinMainDiag(x, y, searchedColour)) return true;
         if (checkWinSecDiag(x, y, searchedColour)) return true;
 
+        return false;
+    }
+
+    //Function for checking if all columns are full
+    private static bool checkTie()
+    {
+        for(int i=0;i<6;++i) 
+            if(gameMatrix[0,i])
+                return true;
         return false;
     }
 
@@ -259,6 +268,10 @@ public class gameController : MonoBehaviour
                 //Coroutine coroutine = StartCoroutine(Wait_5_sec());
                 SceneManager.LoadScene("Yellow Wins");
             }
+        }
+        if(checkTie())
+        {
+            //beni ples
         }
     }
 
