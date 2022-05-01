@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class sceneChanger : MonoBehaviour
+public class SceneChanger : MonoBehaviour
 {
     public void Start_game()
     {
@@ -13,7 +13,7 @@ public class sceneChanger : MonoBehaviour
     public void Start_game_de_la_tastatura()
     {
 
-        if (Input.GetKeyDown(KeyCode.Alpha9))
+        if (Input.GetKeyDown(KeyCode.Alpha1))
         {
             SceneManager.LoadScene("Game");
         }
@@ -28,7 +28,7 @@ public class sceneChanger : MonoBehaviour
     public void Quit_game_de_la_tastatura()
     {
 
-        if (Input.GetKeyDown(KeyCode.Alpha0))
+        if (Input.GetKeyDown(KeyCode.Alpha2))
         {
             Debug.Log("exitgame");
             Application.Quit();

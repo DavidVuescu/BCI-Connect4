@@ -107,7 +107,6 @@
 -define:ENABLE_UNITY_COLLECTIONS_CHECKS
 -define:ENABLE_BURST_AOT
 -define:UNITY_TEAM_LICENSE
--define:UNITY_PRO_LICENSE
 -define:ENABLE_CUSTOM_RENDER_TEXTURE
 -define:ENABLE_DIRECTOR
 -define:ENABLE_LOCALIZATION
@@ -202,6 +201,7 @@
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/Microsoft.Win32.Primitives.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/netstandard.dll"
@@ -403,19 +403,19 @@
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Xml.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Xml.Linq.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Xml.Serialization.dll"
--r:"C:/Users/david/Documents/Programming Work/BCI/BCI-Connect4/Unicorn Connect4/Library/PackageCache/com.unity.burst@1.6.5/Unity.Burst.CodeGen/Unity.Burst.Cecil.dll"
--r:"C:/Users/david/Documents/Programming Work/BCI/BCI-Connect4/Unicorn Connect4/Library/PackageCache/com.unity.burst@1.6.5/Unity.Burst.CodeGen/Unity.Burst.Cecil.Mdb.dll"
--r:"C:/Users/david/Documents/Programming Work/BCI/BCI-Connect4/Unicorn Connect4/Library/PackageCache/com.unity.burst@1.6.5/Unity.Burst.CodeGen/Unity.Burst.Cecil.Pdb.dll"
--r:"C:/Users/david/Documents/Programming Work/BCI/BCI-Connect4/Unicorn Connect4/Library/PackageCache/com.unity.burst@1.6.5/Unity.Burst.CodeGen/Unity.Burst.Cecil.Rocks.dll"
--r:"C:/Users/david/Documents/Programming Work/BCI/BCI-Connect4/Unicorn Connect4/Library/PackageCache/com.unity.burst@1.6.5/Unity.Burst.Unsafe.dll"
--r:"C:/Users/david/Documents/Programming Work/BCI/BCI-Connect4/Unicorn Connect4/Library/PackageCache/com.unity.collab-proxy@1.15.15/Lib/Editor/PlasticSCM/log4netPlastic.dll"
--r:"C:/Users/david/Documents/Programming Work/BCI/BCI-Connect4/Unicorn Connect4/Library/PackageCache/com.unity.collab-proxy@1.15.15/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll"
--r:"C:/Users/david/Documents/Programming Work/BCI/BCI-Connect4/Unicorn Connect4/Library/PackageCache/com.unity.collab-proxy@1.15.15/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll"
--r:"C:/Users/david/Documents/Programming Work/BCI/BCI-Connect4/Unicorn Connect4/Library/PackageCache/com.unity.collab-proxy@1.15.15/Lib/Editor/PlasticSCM/unityplastic.dll"
--r:"C:/Users/david/Documents/Programming Work/BCI/BCI-Connect4/Unicorn Connect4/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll"
--r:"C:/Users/david/Documents/Programming Work/BCI/BCI-Connect4/Unicorn Connect4/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll"
--r:"C:/Users/david/Documents/Programming Work/BCI/BCI-Connect4/Unicorn Connect4/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll"
--r:"C:/Users/david/Documents/Programming Work/BCI/BCI-Connect4/Unicorn Connect4/Library/PackageCache/com.unity.visualscripting@1.7.6/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+-r:"D:/Unity/BCI-Connect4/BCI-Connect4/Unicorn Connect4/Library/PackageCache/com.unity.burst@1.6.5/Unity.Burst.CodeGen/Unity.Burst.Cecil.dll"
+-r:"D:/Unity/BCI-Connect4/BCI-Connect4/Unicorn Connect4/Library/PackageCache/com.unity.burst@1.6.5/Unity.Burst.CodeGen/Unity.Burst.Cecil.Mdb.dll"
+-r:"D:/Unity/BCI-Connect4/BCI-Connect4/Unicorn Connect4/Library/PackageCache/com.unity.burst@1.6.5/Unity.Burst.CodeGen/Unity.Burst.Cecil.Pdb.dll"
+-r:"D:/Unity/BCI-Connect4/BCI-Connect4/Unicorn Connect4/Library/PackageCache/com.unity.burst@1.6.5/Unity.Burst.CodeGen/Unity.Burst.Cecil.Rocks.dll"
+-r:"D:/Unity/BCI-Connect4/BCI-Connect4/Unicorn Connect4/Library/PackageCache/com.unity.burst@1.6.5/Unity.Burst.Unsafe.dll"
+-r:"D:/Unity/BCI-Connect4/BCI-Connect4/Unicorn Connect4/Library/PackageCache/com.unity.collab-proxy@1.15.15/Lib/Editor/PlasticSCM/log4netPlastic.dll"
+-r:"D:/Unity/BCI-Connect4/BCI-Connect4/Unicorn Connect4/Library/PackageCache/com.unity.collab-proxy@1.15.15/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll"
+-r:"D:/Unity/BCI-Connect4/BCI-Connect4/Unicorn Connect4/Library/PackageCache/com.unity.collab-proxy@1.15.15/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll"
+-r:"D:/Unity/BCI-Connect4/BCI-Connect4/Unicorn Connect4/Library/PackageCache/com.unity.collab-proxy@1.15.15/Lib/Editor/PlasticSCM/unityplastic.dll"
+-r:"D:/Unity/BCI-Connect4/BCI-Connect4/Unicorn Connect4/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll"
+-r:"D:/Unity/BCI-Connect4/BCI-Connect4/Unicorn Connect4/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll"
+-r:"D:/Unity/BCI-Connect4/BCI-Connect4/Unicorn Connect4/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll"
+-r:"D:/Unity/BCI-Connect4/BCI-Connect4/Unicorn Connect4/Library/PackageCache/com.unity.visualscripting@1.7.6/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/PsdPlugin.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.2D.Animation.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.2D.Animation.Runtime.ref.dll"
