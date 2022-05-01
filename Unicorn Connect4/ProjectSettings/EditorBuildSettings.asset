@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Yellow Wins.unity
     guid: 1e72a36ba947d6947bef03927f1a4704
+  - enabled: 1
+    path: Assets/Scenes/Tie.unity
+    guid: 98e122e771f68c349b40c7eaa266d65f
   m_configObjects: {}

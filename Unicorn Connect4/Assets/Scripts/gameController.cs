@@ -271,20 +271,18 @@ public class gameController : MonoBehaviour
         }
         if (checkTie())
         {
+            int k = 0;
             //beni ples
-            for (int i = 0; i < 5; i++)
-            {
-                for (int j = 0; j < 6; j++)
+            for (int i = 0; i < 7; i++) {
+                if(gameMatrix[0,i] != 0)
                 {
-
-                    if(gameMatrix[i,j] != 0)
-                    {
-                        //do sth...
-
-                    }
-
+                    k++;
+                    Debug.Log(String.Format("Current filled top row spots: {0}", k));
                 }
+
             }
+            if(k > 6)
+                SceneManager.LoadScene("Tie");
         }
     }
 
