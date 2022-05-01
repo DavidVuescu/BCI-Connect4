@@ -107,6 +107,7 @@
 -define:ENABLE_UNITY_COLLECTIONS_CHECKS
 -define:ENABLE_BURST_AOT
 -define:UNITY_TEAM_LICENSE
+-define:UNITY_PRO_LICENSE
 -define:ENABLE_CUSTOM_RENDER_TEXTURE
 -define:ENABLE_DIRECTOR
 -define:ENABLE_LOCALIZATION
@@ -322,20 +323,19 @@
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XPath.XDocument.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/NetStandard/Extensions/2.0.0/System.Runtime.InteropServices.WindowsRuntime.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/NetStandard/ref/2.1.0/netstandard.dll"
--r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll"
--r:"D:/Unity/BCI-Connect4/BCI-Connect4/Unicorn Connect4/Library/PackageCache/com.unity.burst@1.6.5/Unity.Burst.CodeGen/Unity.Burst.Cecil.dll"
--r:"D:/Unity/BCI-Connect4/BCI-Connect4/Unicorn Connect4/Library/PackageCache/com.unity.burst@1.6.5/Unity.Burst.CodeGen/Unity.Burst.Cecil.Mdb.dll"
--r:"D:/Unity/BCI-Connect4/BCI-Connect4/Unicorn Connect4/Library/PackageCache/com.unity.burst@1.6.5/Unity.Burst.CodeGen/Unity.Burst.Cecil.Pdb.dll"
--r:"D:/Unity/BCI-Connect4/BCI-Connect4/Unicorn Connect4/Library/PackageCache/com.unity.burst@1.6.5/Unity.Burst.CodeGen/Unity.Burst.Cecil.Rocks.dll"
--r:"D:/Unity/BCI-Connect4/BCI-Connect4/Unicorn Connect4/Library/PackageCache/com.unity.burst@1.6.5/Unity.Burst.Unsafe.dll"
--r:"D:/Unity/BCI-Connect4/BCI-Connect4/Unicorn Connect4/Library/PackageCache/com.unity.collab-proxy@1.15.15/Lib/Editor/PlasticSCM/log4netPlastic.dll"
--r:"D:/Unity/BCI-Connect4/BCI-Connect4/Unicorn Connect4/Library/PackageCache/com.unity.collab-proxy@1.15.15/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll"
--r:"D:/Unity/BCI-Connect4/BCI-Connect4/Unicorn Connect4/Library/PackageCache/com.unity.collab-proxy@1.15.15/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll"
--r:"D:/Unity/BCI-Connect4/BCI-Connect4/Unicorn Connect4/Library/PackageCache/com.unity.collab-proxy@1.15.15/Lib/Editor/PlasticSCM/unityplastic.dll"
--r:"D:/Unity/BCI-Connect4/BCI-Connect4/Unicorn Connect4/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll"
--r:"D:/Unity/BCI-Connect4/BCI-Connect4/Unicorn Connect4/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll"
--r:"D:/Unity/BCI-Connect4/BCI-Connect4/Unicorn Connect4/Library/PackageCache/com.unity.visualscripting@1.7.6/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+-r:"C:/Users/david/Documents/Programming Work/BCI/BCI-Connect4/Unicorn Connect4/Library/PackageCache/com.unity.burst@1.6.5/Unity.Burst.CodeGen/Unity.Burst.Cecil.dll"
+-r:"C:/Users/david/Documents/Programming Work/BCI/BCI-Connect4/Unicorn Connect4/Library/PackageCache/com.unity.burst@1.6.5/Unity.Burst.CodeGen/Unity.Burst.Cecil.Mdb.dll"
+-r:"C:/Users/david/Documents/Programming Work/BCI/BCI-Connect4/Unicorn Connect4/Library/PackageCache/com.unity.burst@1.6.5/Unity.Burst.CodeGen/Unity.Burst.Cecil.Pdb.dll"
+-r:"C:/Users/david/Documents/Programming Work/BCI/BCI-Connect4/Unicorn Connect4/Library/PackageCache/com.unity.burst@1.6.5/Unity.Burst.CodeGen/Unity.Burst.Cecil.Rocks.dll"
+-r:"C:/Users/david/Documents/Programming Work/BCI/BCI-Connect4/Unicorn Connect4/Library/PackageCache/com.unity.burst@1.6.5/Unity.Burst.Unsafe.dll"
+-r:"C:/Users/david/Documents/Programming Work/BCI/BCI-Connect4/Unicorn Connect4/Library/PackageCache/com.unity.collab-proxy@1.15.15/Lib/Editor/PlasticSCM/log4netPlastic.dll"
+-r:"C:/Users/david/Documents/Programming Work/BCI/BCI-Connect4/Unicorn Connect4/Library/PackageCache/com.unity.collab-proxy@1.15.15/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll"
+-r:"C:/Users/david/Documents/Programming Work/BCI/BCI-Connect4/Unicorn Connect4/Library/PackageCache/com.unity.collab-proxy@1.15.15/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll"
+-r:"C:/Users/david/Documents/Programming Work/BCI/BCI-Connect4/Unicorn Connect4/Library/PackageCache/com.unity.collab-proxy@1.15.15/Lib/Editor/PlasticSCM/unityplastic.dll"
+-r:"C:/Users/david/Documents/Programming Work/BCI/BCI-Connect4/Unicorn Connect4/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll"
+-r:"C:/Users/david/Documents/Programming Work/BCI/BCI-Connect4/Unicorn Connect4/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll"
+-r:"C:/Users/david/Documents/Programming Work/BCI/BCI-Connect4/Unicorn Connect4/Library/PackageCache/com.unity.visualscripting@1.7.6/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 "Library/PackageCache/com.unity.2d.common@6.0.3/Runtime/InternalBridge/AssemblyInfo.cs"
