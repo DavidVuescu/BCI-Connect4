@@ -165,7 +165,7 @@ public class gameController : MonoBehaviour
     private static bool checkTie()
     {
         for(int i=0;i<6;++i) 
-            if(gameMatrix[0,i])
+            if(gameMatrix[0,i] != 0)
                 return true;
         return false;
     }
@@ -189,69 +189,69 @@ public class gameController : MonoBehaviour
 
         switch (Row)
         {
-        case 0:
-            {
-                if (activePlayer)
-                    Instantiate(redPiece, new Vector2(-3, pieceheight), Quaternion.identity);
-                else
-                    Instantiate(yellowPiece, new Vector2(-3, pieceheight), Quaternion.identity);
+            case 0:
+                {
+                    if (activePlayer)
+                        Instantiate(redPiece, new Vector2(-3, pieceheight), Quaternion.identity);
+                    else
+                        Instantiate(yellowPiece, new Vector2(-3, pieceheight), Quaternion.identity);
 
-            break;
-            }
-        case 1:
-            {
-                if (activePlayer)
-                    Instantiate(redPiece, new Vector2(-2, pieceheight), Quaternion.identity);
-                else
-                    Instantiate(yellowPiece, new Vector2(-2, pieceheight), Quaternion.identity);
+                    break;
+                }
+            case 1:
+                {
+                    if (activePlayer)
+                        Instantiate(redPiece, new Vector2(-2, pieceheight), Quaternion.identity);
+                    else
+                        Instantiate(yellowPiece, new Vector2(-2, pieceheight), Quaternion.identity);
 
-            break;
-            }
-        case 2:
-            {
-                if (activePlayer)
-                    Instantiate(redPiece, new Vector2(-1, pieceheight), Quaternion.identity);
-                else
-                    Instantiate(yellowPiece, new Vector2(-1, pieceheight), Quaternion.identity);
+                    break;
+                }
+            case 2:
+                {
+                    if (activePlayer)
+                        Instantiate(redPiece, new Vector2(-1, pieceheight), Quaternion.identity);
+                    else
+                        Instantiate(yellowPiece, new Vector2(-1, pieceheight), Quaternion.identity);
 
-            break;
-            }
-        case 3:
-            {
-                if (activePlayer)
-                    Instantiate(redPiece, new Vector2(0, pieceheight), Quaternion.identity);
-                else
-                    Instantiate(yellowPiece, new Vector2(0, pieceheight), Quaternion.identity);
+                    break;
+                }
+            case 3:
+                {
+                    if (activePlayer)
+                        Instantiate(redPiece, new Vector2(0, pieceheight), Quaternion.identity);
+                    else
+                        Instantiate(yellowPiece, new Vector2(0, pieceheight), Quaternion.identity);
 
-            break;
-            }
-        case 4:
-            {
-                if (activePlayer)
-                    Instantiate(redPiece, new Vector2(1, pieceheight), Quaternion.identity);
-                else
-                    Instantiate(yellowPiece, new Vector2(1, pieceheight), Quaternion.identity);
+                    break;
+                }
+            case 4:
+                {
+                    if (activePlayer)
+                        Instantiate(redPiece, new Vector2(1, pieceheight), Quaternion.identity);
+                    else
+                        Instantiate(yellowPiece, new Vector2(1, pieceheight), Quaternion.identity);
 
-            break;
-            }
-        case 5:
-            {
-                if (activePlayer)
-                    Instantiate(redPiece, new Vector2(2, pieceheight), Quaternion.identity);
-                else
-                    Instantiate(yellowPiece, new Vector2(2, pieceheight), Quaternion.identity);
+                    break;
+                }
+            case 5:
+                {
+                    if (activePlayer)
+                        Instantiate(redPiece, new Vector2(2, pieceheight), Quaternion.identity);
+                    else
+                        Instantiate(yellowPiece, new Vector2(2, pieceheight), Quaternion.identity);
 
-            break;
-            }
-        case 6:
-            {
-                if (activePlayer)
-                    Instantiate(redPiece, new Vector2(3, pieceheight), Quaternion.identity);
-                else
-                    Instantiate(yellowPiece, new Vector2(3, pieceheight), Quaternion.identity);
+                    break;
+                }
+            case 6:
+                {
+                    if (activePlayer)
+                        Instantiate(redPiece, new Vector2(3, pieceheight), Quaternion.identity);
+                    else
+                        Instantiate(yellowPiece, new Vector2(3, pieceheight), Quaternion.identity);
 
-            break;
-            }
+                    break;
+                }
         }
         nextPlayer();
         if (checkWin(x, Row))
@@ -269,9 +269,22 @@ public class gameController : MonoBehaviour
                 SceneManager.LoadScene("Yellow Wins");
             }
         }
-        if(checkTie())
+        if (checkTie())
         {
             //beni ples
+            for (int i = 0; i < 5; i++)
+            {
+                for (int j = 0; j < 6; j++)
+                {
+
+                    if(gameMatrix[i,j] != 0)
+                    {
+                        //do sth...
+
+                    }
+
+                }
+            }
         }
     }
 
