@@ -9,6 +9,8 @@ using System.Runtime.Serialization.Formatters.Binary;
 using System.Collections;
 using UnityEngine.SceneManagement;
 
+using gameSettings;
+
 
 namespace GameControlls
 {
@@ -300,6 +302,7 @@ namespace GameControlls
 
         public static bool shouldPieceBeSpawned;
         public static int spawnRow;
+        public static int randomRow;
 
         private void OnItemReceived(object sender, EventArgs args)
         {
@@ -392,7 +395,27 @@ namespace GameControlls
         public void bciListener(int spawnRow, bool activePlayer)
         {
             if (shouldPieceBeSpawned)
+            {
                 spawnPiece(spawnRow, activePlayer);
+
+                if (Settings.aiActive)
+                {
+                    if (shouldPieceBeSpawned)
+                    {
+                        int tieBreak = 0;
+
+                        pieceheight = 8;
+                        randomRow = UnityEngine.Random.Range(0, 7);
+                        if (gameMatrix[0, spawnRow] != 0 && tieBreak < 7)
+                        {
+                            ++tieBreak;
+                            randomRow = UnityEngine.Random.Range(0, 7);
+                        }
+                        spawnPiece(randomRow, !activePlayer);
+                        pieceheight = 4;
+                    }
+                }
+            }
             shouldPieceBeSpawned = false;
         }
 
