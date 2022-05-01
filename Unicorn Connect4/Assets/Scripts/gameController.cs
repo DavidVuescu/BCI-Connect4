@@ -29,6 +29,9 @@ namespace GameControlls
 
         private int pieceheight = 4;    //Height at which a piece is spawned
 
+        public string startStop;
+        public int seacondFlashStart;
+        public int seacondFlashStop;
 
         //Function switches boolean responsible for player colour
         private void nextPlayer()
@@ -345,6 +348,27 @@ namespace GameControlls
                 shouldPieceBeSpawned = true;
                 spawnRow = 7;
             }
+
+
+            //Start/restart 
+            if (eventArgs.BoardItem.OutputText == "Alpha9")
+            {
+                Debug.Log("Start/restart");
+                startStop = "Alpha9";
+                seacondFlashStart++;
+
+
+
+            }
+            //Quit
+            if (eventArgs.BoardItem.OutputText == "Alpha0")
+            {
+                Debug.Log("Quit");
+                startStop = "Alpha0";
+                seacondFlashStop++;
+
+
+            }
         }
         void connection(IPAddress ip, int port)
         {
@@ -379,6 +403,7 @@ namespace GameControlls
         void Start()
         {
             activePlayer = false;
+            spawnRow = 1;
 
             //int[,] gameMatrix = new int[6,7];
             for (int x = 0; x < 6; ++x)
@@ -431,6 +456,20 @@ namespace GameControlls
             {
                 // Debug.Log("A piece was spawned on the seventh row");
                 spawnPiece(7, activePlayer);
+            }
+
+
+            if (startStop == "Alpha9" && seacondFlashStart == 2)
+            {
+                // Debug.Log("A piece was spawned on the sixth row");
+                SceneManager.LoadScene("Game");
+                seacondFlashStart = 0;
+            }
+            if (startStop == "Alpha0" && seacondFlashStop == 2)
+            {
+                // Debug.Log("A piece was spawned on the seventh row");
+                Application.Quit();
+                seacondFlashStop = 0;
             }
         }
     }
