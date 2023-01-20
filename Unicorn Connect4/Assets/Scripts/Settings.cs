@@ -7,5 +7,6 @@ namespace gameSettings
     public class Settings : MonoBehaviour
     {
         public static bool aiActive = true;
+        public static bool bciConnected = false;
     }
 }

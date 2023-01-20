@@ -10,9 +10,11 @@ using System.Collections;
 using UnityEngine.SceneManagement;
 
 using gameSettings;
+using WinChecker;
+using trueAI;
 
 
-namespace GameControlls
+namespace GameControls
 {
     public class gameController : MonoBehaviour
     {
@@ -31,19 +33,27 @@ namespace GameControlls
 
         private int pieceheight = 4;    //Height at which a piece is spawned
 
-        public string startStop;
-        public int seacondFlashStart;
-        public int seacondFlashStop;
+        public static bool shouldPieceBeSpawned;
+        public static bool shouldAIplay;
+        public static int spawnRow;
+        public static int randomRow;
 
-        //Function switches boolean responsible for player colour
-        private void nextPlayer()
+
+
+        public string startStop;
+        public int secondFlashStart;
+        public int secondFlashStop;
+
+
+        private void nextPlayer() // Function switches boolean responsible for player colour
         {
             if (!activePlayer) activePlayer = true;
             else activePlayer = false;
-        }
 
-        //Debug function for showing the board matrix inside the console
-        private void showGameMatrix()
+            if (Settings.aiActive)
+                shouldAIplay = !shouldAIplay;
+        }
+        private void showGameMatrix() //Debug function for showing the board matrix inside the console
         {
             Debug.Log(gameMatrix[0, 0] + " " + (int)gameMatrix[0, 1] + " " + (int)gameMatrix[0, 2] + " " + (int)gameMatrix[0, 3] + " " + (int)gameMatrix[0, 4] + " " + (int)gameMatrix[0, 5] + " " + (int)gameMatrix[0, 6] + "\n" +
                     gameMatrix[1, 0] + " " + (int)gameMatrix[1, 1] + " " + (int)gameMatrix[1, 2] + " " + (int)gameMatrix[1, 3] + " " + (int)gameMatrix[1, 4] + " " + (int)gameMatrix[1, 5] + " " + (int)gameMatrix[1, 6] + "\n" +
@@ -53,124 +63,20 @@ namespace GameControlls
                     gameMatrix[5, 0] + " " + (int)gameMatrix[5, 1] + " " + (int)gameMatrix[5, 2] + " " + (int)gameMatrix[5, 3] + " " + (int)gameMatrix[5, 4] + " " + (int)gameMatrix[5, 5] + " " + (int)gameMatrix[5, 6]);
         }
 
-
-        /*FUNCTIONS FOR CHECKING WIN CONDITIONS*/
-        private static bool checkWinVertical(int x, int y, int searchedColour)
+        private static bool checkWin(int x, int y) // Function for checking if a win condition has occured
         {
-            int pieceCount = 0;
-            //Upwards
-            for (int i = x + 1; i < 6; ++i)
-            {
-                if (gameMatrix[i, y] == searchedColour) ++pieceCount;
-                else break;
-                //Debug.Log(String.Format("{0} is compared with{1}", gameMatrix[i,y], searchedColour));
-            }
-            //Downwards
-            for (int i = x; i >= 0; --i)
-            {
-                if (gameMatrix[i, y] == searchedColour) ++pieceCount;
-                else break;
-                //Debug.Log(String.Format("{0} is compared with{1}", gameMatrix[i,y], searchedColour));
-            }
-            if (pieceCount > 3) return true;
-            // Debug.Log(String.Format("The number of pieces connected to the one you placed is: {0}", pieceCount));
-
-            return false;
-        }
-        private static bool checkWinHorizontal(int x, int y, int searchedColour)
-        {
-            int pieceCount = -1;
-            //Right
-            for (int i = y; i < 7; ++i)
-            {
-                if (gameMatrix[x, i] == searchedColour) ++pieceCount;
-                else break;
-                // Debug.Log(String.Format("{0} is compared with{1}", gameMatrix[x,i], searchedColour));
-            }
-            //Left
-            for (int i = y; i >= 0; --i)
-            {
-                if (gameMatrix[x, i] == searchedColour) ++pieceCount;
-                else break;
-                // Debug.Log(String.Format("{0} is compared with{1}", gameMatrix[x,i], searchedColour));
-            }
-            if (pieceCount > 3) return true;
-            // Debug.Log(String.Format("The number of pieces connected to the one you placed is: {0}", pieceCount));
-
-            return false;
-        }
-        private static bool checkWinMainDiag(int x, int y, int searchedColour)
-        {
-            int pieceCount = -1;
-            int j;
-            j = y;
-            //Upwards and to the left (diag)
-            for (int i = x; i >= 0; i--)
-            {
-                if (j < 0) break;
-                if (gameMatrix[i, j] == searchedColour) ++pieceCount;
-                else break;
-                --j;
-            }
-            j = y;
-            //Downwards and to the right (diag)
-            for (int i = x; i < 6; ++i)
-            {
-                if (j > 6) break;
-                if (gameMatrix[i, j] == searchedColour) ++pieceCount;
-                else break;
-                ++j;
-            }
-            if (pieceCount > 3) return true;
-            // Debug.Log(String.Format("The number of pieces connected to the one you placed is: {0}", pieceCount));
-
-            return false;
-        }
-        private static bool checkWinSecDiag(int x, int y, int searchedColour)
-        {
-            //Upwards and to the right (diag)
-            int pieceCount = -1;
-            int j;
-            j = y;
-            for (int i = x; i >= 0; --i)
-            {
-                if (j > 6) break;
-                if (gameMatrix[i, j] == searchedColour) ++pieceCount;
-                else break;
-                ++j;
-            }
-            j = y;
-            for (int i = x; i < 6; ++i)
-            {
-                if (j < 0) break;
-                if (gameMatrix[i, j] == searchedColour) ++pieceCount;
-                else break;
-                --j;
-            }
-            if (pieceCount > 3) return true;
-            // Debug.Log(String.Format("The number of pieces connected to the one you placed is: {0}", pieceCount));
-
-            return false;
-        }
-
-        //main win condition check function, checks adjecent tiles for pieces of the same colour as the current one
-        //if it finds 4 adjecent pieces it returns a true value used for displaying win screens
-        private static bool checkWin(int x, int y)
-        {
-            int searchedColour; //The colour of the current piece the win algo is looking for
+            int searchedColour; // The colour of the current piece the win algo is looking for
             if (!activePlayer) searchedColour = 2; else searchedColour = 1;
             Debug.Log(String.Format("Looking for piece of the colour {0} (1=yellow,2=red)", searchedColour));
 
-            if (checkWinVertical(x, y, searchedColour)) return true;
-            if (checkWinHorizontal(x, y, searchedColour)) return true;
-            if (checkWinMainDiag(x, y, searchedColour)) return true;
-            if (checkWinSecDiag(x, y, searchedColour)) return true;
+            if (winChecker.Vertical(x, y, searchedColour, gameMatrix)) return true;
+            if (winChecker.Horizontal(x, y, searchedColour, gameMatrix)) return true;
+            if (winChecker.MainDiag(x, y, searchedColour, gameMatrix)) return true;
+            if (winChecker.SecDiag(x, y, searchedColour, gameMatrix)) return true;
 
             return false;
         }
-
-        //Function for checking if all columns are full
-        private static bool checkTie()
+        private static bool checkTie() // Function for checking if all columns are full
         {
             for (int i = 0; i < 6; ++i)
                 if (gameMatrix[0, i] != 0)
@@ -178,8 +84,8 @@ namespace GameControlls
             return false;
         }
 
-        //Function for spawning a piece on screen and in the game matrix
-        public void spawnPiece(int Row, bool activePlayer) // Function for placing pieces in game logic
+        public void spawnPiece(int Row, bool activePlayer) // Function for placing pieces in game logic and on screen
+        // Function instantiatiates a piece on screen and adds it in the game matrix
         {
             int x = 5;
             --Row; //row is decremented because matrix uses row numbers 0-6 instead of 1 to 7
@@ -295,84 +201,11 @@ namespace GameControlls
             }
         }
 
+        /*-------BCI CONNECTION-------------------------------------------------------------------------------*/
         /*FUNCTIONS AND VARIABLES FOR BCI CONNECTION*/
         public static string ips = "127.0.0.1";
         public static int port = 1000;
         public static IPAddress ip = IPAddress.Parse(ips);
-
-        public static bool shouldPieceBeSpawned;
-        public static int spawnRow;
-        public static int randomRow;
-
-        private void OnItemReceived(object sender, EventArgs args)
-        {
-            ItemReceivedEventArgs eventArgs = (ItemReceivedEventArgs)args;
-            Debug.Log(String.Format("Received BoardItem:\tName: {0}\tOutput Text: {1}", eventArgs.BoardItem.Name, eventArgs.BoardItem.OutputText));
-
-            if (eventArgs.BoardItem.OutputText == "Alpha1")
-            {
-                Debug.Log("A piece was spawned on the first row");
-                shouldPieceBeSpawned = true;
-                spawnRow = 1;
-            }
-            if (eventArgs.BoardItem.OutputText == "Alpha2")
-            {
-                Debug.Log("A piece was spawned on the second row");
-                shouldPieceBeSpawned = true;
-                spawnRow = 2;
-            }
-            if (eventArgs.BoardItem.OutputText == "Alpha3")
-            {
-                Debug.Log("A piece was spawned on the third row");
-                shouldPieceBeSpawned = true;
-                spawnRow = 3;
-            }
-            if (eventArgs.BoardItem.OutputText == "Alpha4")
-            {
-                Debug.Log("A piece was spawned on the fourth row");
-                shouldPieceBeSpawned = true;
-                spawnRow = 4;
-            }
-            if (eventArgs.BoardItem.OutputText == "Alpha5")
-            {
-                Debug.Log("A piece was spawned on the fifth row");
-                shouldPieceBeSpawned = true;
-                spawnRow = 5;
-            }
-            if (eventArgs.BoardItem.OutputText == "Alpha6")
-            {
-                Debug.Log("A piece was spawned on the sixth row");
-                shouldPieceBeSpawned = true;
-                spawnRow = 6;
-            }
-            if (eventArgs.BoardItem.OutputText == "Alpha7")
-            {
-                Debug.Log("A piece was spawned on the seventh row");
-                shouldPieceBeSpawned = true;
-                spawnRow = 7;
-            }
-
-
-            //Start/restart 
-            if (eventArgs.BoardItem.OutputText == "Alpha9")
-            {
-                Debug.Log("Start/restart");
-                startStop = "Alpha9";
-                seacondFlashStart++;
-
-
-
-            }
-            //Quit
-            if (eventArgs.BoardItem.OutputText == "Alpha0")
-            {
-                Debug.Log("Quit");
-                startStop = "Alpha0";
-                seacondFlashStop++;
-
-
-            }
-        }
         void connection(IPAddress ip, int port)
         {
             // Connection with Unicorn BCI
@@ -392,33 +225,83 @@ namespace GameControlls
             }
 
         }
+        private void OnItemReceived(object sender, EventArgs args)
+        {
+            ItemReceivedEventArgs eventArgs = (ItemReceivedEventArgs)args;
+            Debug.Log(String.Format("Received BoardItem:\tName: {0}\tOutput Text: {1}", eventArgs.BoardItem.Name, eventArgs.BoardItem.OutputText));
+
+            if (eventArgs.BoardItem.OutputText == "Alpha1")
+            {
+                Debug.Log("A piece was spawned on the first row by BCI");
+                shouldPieceBeSpawned = true;
+                spawnRow = 1;
+            }
+            if (eventArgs.BoardItem.OutputText == "Alpha2")
+            {
+                Debug.Log("A piece was spawned on the second row by BCI");
+                shouldPieceBeSpawned = true;
+                spawnRow = 2;
+            }
+            if (eventArgs.BoardItem.OutputText == "Alpha3")
+            {
+                Debug.Log("A piece was spawned on the third row by BCI");
+                shouldPieceBeSpawned = true;
+                spawnRow = 3;
+            }
+            if (eventArgs.BoardItem.OutputText == "Alpha4")
+            {
+                Debug.Log("A piece was spawned on the fourth row by BCI");
+                shouldPieceBeSpawned = true;
+                spawnRow = 4;
+            }
+            if (eventArgs.BoardItem.OutputText == "Alpha5")
+            {
+                Debug.Log("A piece was spawned on the fifth row by BCI");
+                shouldPieceBeSpawned = true;
+                spawnRow = 5;
+            }
+            if (eventArgs.BoardItem.OutputText == "Alpha6")
+            {
+                Debug.Log("A piece was spawned on the sixth row by BCI");
+                shouldPieceBeSpawned = true;
+                spawnRow = 6;
+            }
+            if (eventArgs.BoardItem.OutputText == "Alpha7")
+            {
+                Debug.Log("A piece was spawned on the seventh row by BCI");
+                shouldPieceBeSpawned = true;
+                spawnRow = 7;
+            }
+
+
+            //Start/restart 
+            if (eventArgs.BoardItem.OutputText == "Alpha9")
+            {
+                Debug.Log("Start/restart");
+                startStop = "Alpha9";
+                secondFlashStart++;
+
+
+
+            }
+            //Quit
+            if (eventArgs.BoardItem.OutputText == "Alpha0")
+            {
+                Debug.Log("Quit");
+                startStop = "Alpha0";
+                secondFlashStop++;
+
+
+            }
+        }
         public void bciListener(int spawnRow, bool activePlayer)
         {
             if (shouldPieceBeSpawned)
-            {
                 spawnPiece(spawnRow, activePlayer);
 
-                if (Settings.aiActive)
-                {
-                    if (shouldPieceBeSpawned)
-                    {
-                        int tieBreak = 0;
-
-                        pieceheight = 8;
-                        randomRow = UnityEngine.Random.Range(0, 7);
-                        if (gameMatrix[0, spawnRow] != 0 && tieBreak < 7)
-                        {
-                            ++tieBreak;
-                            randomRow = UnityEngine.Random.Range(0, 7);
-                        }
-                        spawnPiece(randomRow, !activePlayer);
-                        pieceheight = 4;
-                    }
-                }
-            }
             shouldPieceBeSpawned = false;
         }
-
+        /*--^^^--BCI CONNECTION--^^^--------------------------------------------------------------------------*/
 
 
         /*GAME LOOP FUNCTIONS*/
@@ -426,17 +309,16 @@ namespace GameControlls
         void Start()
         {
             activePlayer = false;
+            shouldAIplay = false;
             spawnRow = 1;
 
             //int[,] gameMatrix = new int[6,7];
             for (int x = 0; x < 6; ++x)
                 for (int y = 0; y < 7; ++y)
-                {
                     gameMatrix[x, y] = (int)Piece.Empty;
-                }
             showGameMatrix();
 
-            connection(ip, port);
+            if(Settings.bciConnected) connection(ip, port);
         }
 
         // Update is called once per frame
@@ -444,55 +326,28 @@ namespace GameControlls
         {
             bciListener(spawnRow, activePlayer);
 
+            // Keyboard Inputs
+            if (Input.GetKeyDown(KeyCode.Alpha1)) { spawnPiece(1, activePlayer); }
+            if (Input.GetKeyDown(KeyCode.Alpha2)) { spawnPiece(2, activePlayer); }
+            if (Input.GetKeyDown(KeyCode.Alpha3)) { spawnPiece(3, activePlayer); }
+            if (Input.GetKeyDown(KeyCode.Alpha4)) { spawnPiece(4, activePlayer); }
+            if (Input.GetKeyDown(KeyCode.Alpha5)) { spawnPiece(5, activePlayer); }
+            if (Input.GetKeyDown(KeyCode.Alpha6)) { spawnPiece(6, activePlayer); }
+            if (Input.GetKeyDown(KeyCode.Alpha7)) { spawnPiece(7, activePlayer); }
+            if (startStop == "Alpha9" && secondFlashStart == 2) { SceneManager.LoadScene("Game"); secondFlashStart = 0; }
+            if (startStop == "Alpha0" && secondFlashStop == 2) { Application.Quit(); secondFlashStop = 0; }
 
-            if (Input.GetKeyDown(KeyCode.Alpha1))
+            if (shouldAIplay)
             {
-                // Debug.Log("A piece was spawned on the first row");
-                spawnPiece(1, activePlayer);
-            }
-            if (Input.GetKeyDown(KeyCode.Alpha2))
-            {
-                // Debug.Log("A piece was spawned on the second row");
-                spawnPiece(2, activePlayer);
-            }
-            if (Input.GetKeyDown(KeyCode.Alpha3))
-            {
-                // Debug.Log("A piece was spawned on the third row");
-                spawnPiece(3, activePlayer);
-            }
-            if (Input.GetKeyDown(KeyCode.Alpha4))
-            {
-                // Debug.Log("A piece was spawned on the fourth row");
-                spawnPiece(4, activePlayer);
-            }
-            if (Input.GetKeyDown(KeyCode.Alpha5))
-            {
-                // Debug.Log("A piece was spawned on the fifth row");
-                spawnPiece(5, activePlayer);
-            }
-            if (Input.GetKeyDown(KeyCode.Alpha6))
-            {
-                // Debug.Log("A piece was spawned on the sixth row");
-                spawnPiece(6, activePlayer);
-            }
-            if (Input.GetKeyDown(KeyCode.Alpha7))
-            {
-                // Debug.Log("A piece was spawned on the seventh row");
-                spawnPiece(7, activePlayer);
-            }
-
-
-            if (startStop == "Alpha9" && seacondFlashStart == 2)
-            {
-                // Debug.Log("A piece was spawned on the sixth row");
-                SceneManager.LoadScene("Game");
-                seacondFlashStart = 0;
-            }
-            if (startStop == "Alpha0" && seacondFlashStop == 2)
-            {
-                // Debug.Log("A piece was spawned on the seventh row");
-                Application.Quit();
-                seacondFlashStop = 0;
+                pieceheight = 8;
+                randomRow = UnityEngine.Random.Range(0, 7);
+                if (gameMatrix[0, spawnRow] != 0 && tieBreak < 7)
+                {
+                    ++tieBreak;
+                    randomRow = UnityEngine.Random.Range(0, 7);
+                }
+                spawnPiece(randomRow, !activePlayer);
+                pieceheight = 4;
             }
         }
     }

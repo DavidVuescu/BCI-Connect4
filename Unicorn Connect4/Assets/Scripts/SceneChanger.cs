@@ -2,10 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using GameControlls;
 using System;
 using Unity.ItemRecever;
 using Intendix.Board;
+
+using GameControls;
 
 public class SceneChanger : MonoBehaviour
 {
